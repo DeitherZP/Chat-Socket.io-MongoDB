@@ -4,8 +4,8 @@ var conteo = 0
 const express = require('express');
 const http = require('http');
 const app = express();
-const db = require("./db");
-const model = require("./models")
+const db = require("./database");
+const model = require("./modelo")
 
 const server = http.createServer(app);
 const { Server } = require("socket.io");
